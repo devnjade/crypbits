@@ -1,0 +1,29 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  background: #18181B;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: #fff;
+  margin: 0;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+button{
+  cursor: pointer !important;
+  background: transparent;
+}

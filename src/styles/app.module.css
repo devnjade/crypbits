@@ -10,8 +10,9 @@
     padding: 32px 0;
 }
 .header p{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
 }
 .header button{
     padding: 14px 32px;
@@ -35,6 +36,12 @@
     height: 500px;
     border-radius: 32px;
     background-color: #ffffff10;
+}
+.featured_section .art img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 32px;
     border-bottom: 10px solid #8B5CF6;
 }
 .featured_section .details{
@@ -56,8 +63,8 @@
     width: 40px;
     height: 40px;
     border-radius: 9999px;
-    background-color: #8B5CF650;
     margin-right: 10px;
+    background-image: linear-gradient(red, yellow);
 }
 .featured_section .details .profile .name{
     font-size: 20px;
@@ -67,7 +74,7 @@
 }
 .featured_section .details .title{
     font-size: 56px;
-    font-family: 'Eagle Lake', cursive;
+    font-family: 'Permanent Marker', cursive;
     margin-bottom: 24px;
 }
 .featured_section .details .last_sec{
@@ -107,31 +114,60 @@
 
 
 .all_section{
-    margin: 40px 0;
+    margin-top: 100px;
+    padding: 40px;
+    background-color: #ffffff10;
+    border-radius: 56px;
+
 }
 .all_section .title{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 32px;
 }
-
 .all_section .all_grid{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 32px;
+    gap: 24px;
 }
 .all_section .all_grid .grid_item{
     width: 100%;
-    height: 400px;
     border-radius: 24px;
     background-color: #ffffff10;
-    border-bottom: 10px solid #8B5CF650;
+}
+.all_section .all_grid .grid_item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px 24px 0 0;
+    /* border-bottom: 10px solid #8B5CF650;s */
+}
+.all_section .all_grid .grid_item .sub{
+    padding: 20px;
+}
+.all_section .all_grid .grid_item .sub .title{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 10px;
+}
+.all_section .all_grid .grid_item .sub .last_sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all_section .all_grid .grid_item .sub .last_sec .price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.all_section .all_grid .grid_item .sub .last_sec .number{
+    font-size: 14px;
+    color: #ffffff50;
+    margin-left: 20px;
+    letter-spacing: 1px;
 }
 
 .footer{
-    border-top: 2px solid #ffffff10;
-    padding: 32px 0;
-    padding-bottom: 60px;
+    padding: 60px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -160,8 +196,99 @@
     flex-direction: row;
     align-items: center;
 }
+.footer .icons a{
+    margin-left: 50px;
+}
 .footer .icons a img{
     width: 20px;
     height: 20px;
-    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0px 24px;
+    }
+    .header{
+        padding: 24px 0;
+    }
+    .header p{
+        font-size: 20px;
+    }
+    .header button{
+        padding: 10px 24px;
+    }
+    .featured_section{
+        margin: 40px 0;
+        flex-direction: column;
+    }
+    .featured_section .art{
+        width: 100%;
+        height: 400px;
+    }
+    .featured_section .details{
+        width: 100%;
+        padding: 24px;
+    }
+    .featured_section .details .title{
+        font-size: 36px;
+    }
+    .all_section{
+        padding: 24px;
+        border-radius: 32px;
+    }
+    .all_section .all_grid{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 32px;
+    }
+    .footer{
+        padding: 24px 0;
+        flex-direction: column;
+    }
+    .footer .icons a{
+        margin: 0 20px;
+        margin-top: 24px;
+    }
+    .footer .extra .cc{
+        font-size: 16px;
+    }
+    .footer .extra a{
+        font-size: 16px;
+        margin-left: 18px;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .all_section .all_grid{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px;
+    }
+    .featured_section .art{
+        width: 40%;
+    }
+    .featured_section .details{
+        width: 50%;
+    }
+    .featured_section{
+        margin: 40px 0;
+        flex-direction: row;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .all_section .all_grid{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 32px;
+    }
+    .featured_section .art{
+        width: 40%;
+    }
+    .featured_section .details{
+        width: 50%;
+    }
+    .featured_section{
+        margin: 40px 0;
+        flex-direction: row;
+    }
 }

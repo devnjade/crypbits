@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737771/maria-orlova-bU8TeXhsPcY-unsplash_pqk5g5.jpg",
+        "name": "Wonder",
+        "price": "0.345",
+        "quantity": "1/1"
+    },
+    {
+        "id": 1,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737909/federica-campanaro-NBJ0BBqvdNM-unsplash_sh1l0d.jpg",
+        "name": "#100 - Squirl",
+        "price": "0.5",
+        "quantity": "1/1"
+    },
+    {
+        "id": 2,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636738081/pawel-czerwinski-BPrk2cOoCq8-unsplash_zplibj.jpg",
+        "name": "Infinity - SpaceMan",
+        "price": "10",
+        "quantity": "1/10"
+    },
+    {
+        "id": 3,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737910/dim-7-DB7u9kZnzgg-unsplash_xqeszd.jpg",
+        "name": "#1 - Deluzion",
+        "price": "0.5",
+        "quantity": "1/1"
+    },
+    {
+        "id": 4,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737910/dim-7-DB7u9kZnzgg-unsplash_xqeszd.jpg",
+        "name": "Deluzzzzion",
+        "price": "0.5",
+        "quantity": "1/1"
+    },
+    {
+        "id": 5,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737775/alice-donovan-rouse-yu68fUQDvOI-unsplash_iimzme.jpg",
+        "name": "000JERIco",
+        "price": "5",
+        "quantity": "1/1"
+    },
+    {
+        "id": 6,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737911/diogo-nunes-Wa9ilX9XYOI-unsplash_thghkn.jpg",
+        "name": "#30 - Mood",
+        "price": "4.55",
+        "quantity": "1/1"
+    },
+    {
+        "id": 7,
+        "img": "https://res.cloudinary.com/dudhmrdin/image/upload/v1636737915/jon-tyson-9sR0K4D1gNQ-unsplash_vprixf.jpg",
+        "name": "GREEK000",
+        "price": "1.5",
+        "quantity": "1/1"
+    }
+]

@@ -5,6 +5,8 @@ body {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
   background: #18181B;
+  backdrop-filter: blur(20px);
+  background-image: linear-gradient(#18181B, #18181B, #8B5CF6);
 }
 
 a{
